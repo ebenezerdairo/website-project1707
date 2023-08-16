@@ -1,44 +1,40 @@
 *{
     color: brown;
-    font-family:'Raleway', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 20px;
     text-align:center;
-
-       
-} 
-
-body{
-    font-family: 'Raleway', sans-serif; 
-    background-color: deepskyblue;
-    background-size: 100%;
 }
-
-
-
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #fefae0;
+    background-size: auto;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
 h1{
-    color:blue;
+    color: #2c1e11;
     font-size: 40px; 
-    text-align: center; 
+    text-align:center;
 } 
 
 
 h2{
-    color: #5b925b;
+    color:#556b2f;
     font-size: 30px;
     text-align: centre;
-    
 }
 
 
 h3{
-    color:palevioletred;
+    color:black;
     font-size: 30px;
     text-align: center;
     
 }
 
 h4{
-    color:palevioletred;
+    color:black;
     font-size: 30px;
     text-align: center;
 }
@@ -66,7 +62,7 @@ h4{
 
 
 p{
-    color: black;
+    color: #3b240b;
     font-size: 18px;
 }
 
@@ -76,7 +72,7 @@ p{
 .navbar{
     text-align: right;
     color:beige;
-    border:black;
+    border:2px;
     font-size: 25px;
     padding: 0px;
     margin:auto;
@@ -103,21 +99,20 @@ p{
     align-items: center;
 }
 
-/* * Style inputs with type="text", select elements and textareas */ 
+ 
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical;
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: blueviolet;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -128,18 +123,18 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #556b2f;
 }
   
-  /* Add a background color and some padding around the form */
+  
 .container {
-    border-radius: 4px;
-    background-color: #f2f2f2;
-    padding: 20px;
+    border-radius: 10px;
+    background-color: #fefae0;
+    padding: 5rem;
+    margin: auto;
+
 }
 
-
-/* Style all font awesome icons */
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -153,7 +148,7 @@ input[type=submit]:hover {
     opacity: 0.7;
 }
   
-  /* Set a specific color for each brand */
+ 
   
   /* Facebook */
 .fa-facebook {
