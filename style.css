@@ -18,9 +18,12 @@ h1{
     text-align:center;
 } 
 
-
+.coffee-bar{
+    height:"900px";
+    width:"800px";
+}
 h2{
-    color:#556b2f;
+    color:brown;
     font-size: 30px;
     text-align: centre;
 }
@@ -130,8 +133,8 @@ input[type=submit]:hover {
 .container {
     border-radius: 10px;
     background-color: #fefae0;
-    padding: 5rem;
-    margin: auto;
+    padding: 3rem;
+    margin: 7.5%;
 
 }
 
